@@ -1,0 +1,76 @@
+[
+  {
+    "id": "cattail",
+    "species": "Bulrush and cattail (Typha latifolia)",
+    "notes": "Shallow fresh water nearly everywhere outside the deserts and the far north.",
+    "patches": [ "tallplant-coopersreed-*" ],
+    "koppen": { "Cfa": 1, "Cfb": 1, "Dfb": 1, "Dfa": 0.9, "Csa": 0.6, "Csb": 0.6, "Cwa": 0.6, "Dfc": 0.6, "BSk": 0.4, "Aw": 0.3 },
+    "temperatureC": [ -2, 3, 20, 25 ],
+    "precipitationMm": [ 300, 400, null, null ]
+  },
+  {
+    "id": "papyrus",
+    "species": "Papyrus (Cyperus papyrus)",
+    "notes": "Tropical African swamps and the Nile.",
+    "patches": [ "tallplant-papyrus-*" ],
+    "koppen": { "Aw": 1, "Am": 0.9, "Af": 0.7, "BSh": 0.5, "Cwa": 0.5 },
+    "temperatureC": [ 18, 21, null, null ],
+    "winterNightC": [ 0, 4, null, null ]
+  },
+  {
+    "id": "tule",
+    "species": "Tule (Schoenoplectus acutus)",
+    "notes": "Marshes of western North America, from the Central Valley to the Great Basin.",
+    "patches": [ "tallplant-tule-*" ],
+    "koppen": { "Csb": 1, "Csa": 0.9, "BSk": 0.8, "Dfb": 0.7, "Dsb": 0.7, "Cfb": 0.5 },
+    "temperatureC": [ 2, 6, 16, 20 ]
+  },
+  {
+    "id": "brownsedge",
+    "species": "Warm-climate sedges (Cyperus, Carex)",
+    "notes": "Wet margins in humid subtropical and tropical lowlands.",
+    "patches": [ "tallplant-brownsedge-*" ],
+    "koppen": { "Cfa": 1, "Am": 0.8, "Aw": 0.8, "Cwa": 0.8, "Af": 0.6 },
+    "temperatureC": [ 12, 16, null, null ],
+    "precipitationMm": [ 700, 900, null, null ]
+  },
+  {
+    "id": "waterlily",
+    "species": "Water lilies (Nymphaea)",
+    "notes": "Still fresh water in warm and temperate climates.",
+    "patches": [ "waterlily" ],
+    "koppen": { "Cfa": 1, "Aw": 1, "Am": 1, "Af": 0.9, "Cfb": 0.8, "Cwa": 0.8, "Dfa": 0.7, "Dfb": 0.6, "Csa": 0.5 },
+    "temperatureC": [ 4, 9, null, null ],
+    "precipitationMm": [ 500, 700, null, null ]
+  },
+  {
+    "id": "silvertorchcactus",
+    "species": "Silver torch (Cleistocactus strausii)",
+    "notes": "Dry Andean valleys of Bolivia, 1,700 to 3,000 m.",
+    "patches": [ "silvertorchcactus" ],
+    "koppen": { "BSk": 1, "BWk": 0.8, "BSh": 0.5, "Cwb": 0.5 },
+    "temperatureC": [ 10, 13, 20, 24 ],
+    "precipitationMm": [ 100, 200, 600, 900 ],
+    "winterNightC": [ -10, -5, null, null ]
+  },
+  {
+    "id": "saguaro",
+    "species": "Saguaro (Carnegiea gigantea)",
+    "notes": "Sonoran Desert only: killed by a hard freeze lasting into the day.",
+    "patches": [ "saguarocactus-*" ],
+    "koppen": { "BWh": 1, "BSh": 0.6 },
+    "temperatureC": [ 16, 19, 25, 28 ],
+    "precipitationMm": [ 100, 150, 350, 500 ],
+    "winterNightC": [ -7, -3, null, null ]
+  },
+  {
+    "id": "barrelcactus",
+    "species": "Barrel cacti (Ferocactus)",
+    "notes": "Deserts of the southwestern United States and Mexico.",
+    "patches": [ "barrelcactus-*" ],
+    "koppen": { "BWh": 1, "BSh": 0.8, "BWk": 0.5, "BSk": 0.3 },
+    "temperatureC": [ 12, 16, 26, 30 ],
+    "precipitationMm": [ 80, 120, 400, 600 ],
+    "winterNightC": [ -12, -6, null, null ]
+  }
+]

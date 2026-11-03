@@ -1,0 +1,148 @@
+[
+  {
+    "id": "wild-spelt",
+    "species": "Spelt (Triticum spelta)",
+    "notes": "Wheat of the Near East's winter-rain hills, grown across Europe.",
+    "patches": [ "crop-spelt-*" ],
+    "koppen": { "Cfb": 1, "Dfa": 0.8, "Dfb": 0.8, "Csa": 0.7, "BSk": 0.6, "Csb": 0.6 },
+    "temperatureC": [ 4, 7, 14, 18 ],
+    "precipitationMm": [ 350, 500, 1000, 1400 ]
+  },
+  {
+    "id": "wild-rye",
+    "species": "Rye (Secale cereale)",
+    "notes": "Hardiest of the grains: Anatolian and Caucasian origin, grown far into the north.",
+    "patches": [ "crop-rye-*" ],
+    "koppen": { "Dfb": 1, "Dfc": 0.7, "Cfb": 0.7, "BSk": 0.6, "Dfa": 0.6 },
+    "temperatureC": [ -2, 2, 10, 14 ],
+    "precipitationMm": [ 300, 450, 900, 1300 ]
+  },
+  {
+    "id": "wild-flax",
+    "species": "Flax (Linum usitatissimum)",
+    "patches": [ "crop-flax-*" ],
+    "koppen": { "Cfb": 1, "Dfb": 0.8, "Csa": 0.7, "Dfa": 0.6, "BSk": 0.5, "Cfa": 0.5 },
+    "temperatureC": [ 4, 7, 15, 20 ],
+    "precipitationMm": [ 400, 500, 1000, 1400 ]
+  },
+  {
+    "id": "wild-soybean",
+    "species": "Wild soybean (Glycine soja)",
+    "notes": "Northeast China, Korea and Japan: hot, wet summers.",
+    "patches": [ "crop-soybean-*" ],
+    "koppen": { "Dwa": 1, "Cfa": 1, "Cwa": 0.9, "Dfa": 0.8 },
+    "temperatureC": [ 8, 12, 20, 24 ],
+    "precipitationMm": [ 500, 700, 1600, 2200 ],
+    "warmestMonthC": [ 18, 22, null, null ]
+  },
+  {
+    "id": "wild-carrot",
+    "species": "Wild carrot (Daucus carota)",
+    "patches": [ "crop-carrot-*" ],
+    "koppen": { "Cfb": 1, "Csa": 0.8, "Csb": 0.8, "Dfb": 0.7, "Cfa": 0.6, "BSk": 0.4 },
+    "temperatureC": [ 5, 8, 16, 20 ],
+    "precipitationMm": [ 350, 500, 1100, 1600 ]
+  },
+  {
+    "id": "wild-onion",
+    "species": "Onion (Allium cepa)",
+    "notes": "Central Asia: dry summers, cold winters.",
+    "patches": [ "crop-onion-*" ],
+    "koppen": { "BSk": 1, "Csa": 0.9, "Dsa": 0.8, "Dfa": 0.7, "Cfb": 0.5 },
+    "temperatureC": [ 6, 10, 18, 22 ],
+    "precipitationMm": [ 150, 250, 800, 1200 ]
+  },
+  {
+    "id": "wild-parsnip",
+    "species": "Wild parsnip (Pastinaca sativa)",
+    "patches": [ "crop-parsnip-*" ],
+    "koppen": { "Cfb": 1, "Dfb": 0.9, "Dfa": 0.6, "Csb": 0.5 },
+    "temperatureC": [ 2, 5, 12, 16 ],
+    "precipitationMm": [ 450, 600, 1200, 1800 ]
+  },
+  {
+    "id": "wild-turnip",
+    "species": "Field mustard and turnip (Brassica rapa)",
+    "patches": [ "crop-turnip-*" ],
+    "koppen": { "Cfb": 1, "Dfb": 0.9, "Dfa": 0.7, "Csb": 0.6, "Csa": 0.5, "BSk": 0.4 },
+    "temperatureC": [ 2, 5, 14, 18 ],
+    "precipitationMm": [ 400, 550, 1200, 1800 ]
+  },
+  {
+    "id": "wild-rice",
+    "species": "Wild rice (Oryza rufipogon)",
+    "notes": "Monsoon wetlands of South and Southeast Asia and southern China.",
+    "patches": [ "crop-rice-*" ],
+    "koppen": { "Am": 1, "Cwa": 1, "Aw": 0.9, "Af": 0.7, "Cfa": 0.7 },
+    "temperatureC": [ 18, 22, 29, 32 ],
+    "precipitationMm": [ 1000, 1500, null, null ],
+    "warmestMonthC": [ 22, 25, null, null ]
+  },
+  {
+    "id": "wild-cassava",
+    "species": "Cassava (Manihot esculenta)",
+    "notes": "Savanna edges of southern Amazonia; frost-tender, drought-tolerant.",
+    "patches": [ "crop-cassava-*" ],
+    "koppen": { "Aw": 1, "Am": 0.9, "Af": 0.7, "BSh": 0.4 },
+    "temperatureC": [ 20, 23, 29, 32 ],
+    "precipitationMm": [ 500, 1000, 2500, 4000 ],
+    "winterNightC": [ 2, 6, null, null ]
+  },
+  {
+    "id": "wild-amaranth",
+    "species": "Grain amaranth (Amaranthus)",
+    "notes": "Mexican and Andean highlands and their warm valleys.",
+    "patches": [ "crop-amaranth-*" ],
+    "koppen": { "Cwa": 1, "Aw": 0.9, "Cwb": 0.9, "BSh": 0.6, "Cfa": 0.6, "Am": 0.5 },
+    "temperatureC": [ 14, 18, 26, 30 ],
+    "precipitationMm": [ 400, 600, 1500, 2500 ]
+  },
+  {
+    "id": "wild-pineapple",
+    "species": "Pineapple (Ananas comosus)",
+    "notes": "Paraná and Paraguay river basins; tropical lowlands.",
+    "patches": [ "crop-pineapple-*" ],
+    "koppen": { "Aw": 1, "Am": 1, "Af": 0.7 },
+    "temperatureC": [ 21, 24, 29, 32 ],
+    "precipitationMm": [ 800, 1200, 2500, 4000 ],
+    "coldestMonthC": [ 15, 18, null, null ]
+  },
+  {
+    "id": "wild-peanut",
+    "species": "Peanut (Arachis hypogaea)",
+    "notes": "Bolivian and Paraguayan lowlands with a dry season.",
+    "patches": [ "crop-peanut-*" ],
+    "koppen": { "Aw": 1, "Cwa": 0.9, "BSh": 0.7, "Am": 0.6, "Cfa": 0.6 },
+    "temperatureC": [ 18, 22, 28, 31 ],
+    "precipitationMm": [ 500, 700, 1500, 2200 ],
+    "warmestMonthC": [ 22, 25, null, null ]
+  },
+  {
+    "id": "wild-sunflower",
+    "species": "Common sunflower (Helianthus annuus)",
+    "notes": "North American prairie and plains.",
+    "patches": [ "crop-sunflower-*" ],
+    "koppen": { "BSk": 1, "Dfa": 0.9, "Cfa": 0.7, "BSh": 0.6, "Dfb": 0.5, "Csa": 0.5 },
+    "temperatureC": [ 6, 10, 18, 22 ],
+    "precipitationMm": [ 250, 400, 900, 1300 ],
+    "warmestMonthC": [ 18, 21, null, null ]
+  },
+  {
+    "id": "wild-fennel",
+    "species": "Fennel (Foeniculum vulgare)",
+    "notes": "Mediterranean coasts.",
+    "patches": [ "crop-fennel-*" ],
+    "koppen": { "Csa": 1, "Csb": 0.9, "BSk": 0.5, "Cfa": 0.5, "Cfb": 0.4 },
+    "temperatureC": [ 10, 13, 19, 22 ],
+    "precipitationMm": [ 300, 400, 900, 1300 ]
+  },
+  {
+    "id": "wild-licorice",
+    "species": "Licorice (Glycyrrhiza glabra)",
+    "notes": "Steppe and river valleys from the Mediterranean to Central Asia.",
+    "patches": [ "crop-licorice-*" ],
+    "koppen": { "BSk": 1, "Csa": 0.9, "Dsa": 0.8, "BSh": 0.6, "Dfa": 0.6 },
+    "temperatureC": [ 8, 11, 19, 23 ],
+    "precipitationMm": [ 200, 300, 700, 1000 ]
+  }
+]

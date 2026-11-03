@@ -1,0 +1,14 @@
+{
+  "type": "code",
+  "modid": "koppenflora",
+  "name": "Köppen Flora",
+  "authors": [ "Techmo" ],
+  "description": "Places trees, shrubs and plants by the real-world climates they grow in, using the Köppen classes and seasonal climate Terrain Diffusion generates.",
+  "version": "0.1.0",
+  "side": "server",
+  "requiredOnClient": false,
+  "dependencies": {
+    "game": "",
+    "vsterraindiffusion": ""
+  }
+}

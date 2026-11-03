@@ -1,0 +1,93 @@
+[
+  {
+    "id": "blackcurrant",
+    "species": "Blackcurrant (Ribes nigrum)",
+    "notes": "Damp woods of northern and central Europe and Siberia.",
+    "patches": [ "fruitingbush-wild-blackcurrant-*" ],
+    "koppen": { "Dfb": 1, "Dfc": 0.8, "Cfb": 0.8, "Dfa": 0.5 },
+    "temperatureC": [ -3, 1, 9, 12 ],
+    "precipitationMm": [ 400, 550, 1200, 1800 ]
+  },
+  {
+    "id": "redcurrant",
+    "species": "Redcurrant (Ribes rubrum)",
+    "notes": "Western and northern Europe.",
+    "patches": [ "fruitingbush-wild-redcurrant-*" ],
+    "koppen": { "Cfb": 1, "Dfb": 1, "Dfc": 0.6 },
+    "temperatureC": [ -1, 3, 10, 13 ],
+    "precipitationMm": [ 450, 600, null, null ]
+  },
+  {
+    "id": "whitecurrant",
+    "species": "White currant (Ribes rubrum, white form)",
+    "patches": [ "fruitingbush-wild-whitecurrant-*" ],
+    "koppen": { "Cfb": 1, "Dfb": 0.9, "Dfa": 0.4, "Dfc": 0.4 },
+    "temperatureC": [ 1, 4, 11, 14 ],
+    "precipitationMm": [ 450, 600, null, null ]
+  },
+  {
+    "id": "blueberry",
+    "species": "Bilberry and blueberry (Vaccinium myrtillus, V. corymbosum)",
+    "notes": "Acid soil of boreal and cool temperate forest and heath.",
+    "patches": [ "fruitingbush-wild-blueberry-*" ],
+    "koppen": { "Dfb": 1, "Dfc": 1, "Cfb": 0.8, "Cfc": 0.7, "Dfa": 0.5 },
+    "temperatureC": [ -4, 0, 10, 14 ],
+    "precipitationMm": [ 500, 700, null, null ]
+  },
+  {
+    "id": "cranberry",
+    "species": "Bog cranberry (Vaccinium oxycoccos)",
+    "notes": "Sphagnum bogs of the boreal zone.",
+    "patches": [ "fruitingbush-wild-cranberry-*" ],
+    "koppen": { "Dfc": 1, "Dfb": 0.9, "Cfc": 0.6, "ET": 0.5, "Cfb": 0.4 },
+    "temperatureC": [ -6, -2, 7, 11 ],
+    "precipitationMm": [ 400, 550, null, null ]
+  },
+  {
+    "id": "strawberry",
+    "species": "Wild strawberry (Fragaria vesca)",
+    "notes": "Woodland edges and clearings across temperate Eurasia and North America.",
+    "patches": [ "fruitingbush-wild-strawberry-*" ],
+    "koppen": { "Cfb": 1, "Dfb": 1, "Csb": 0.7, "Dfa": 0.7, "Cfa": 0.5, "Dfc": 0.5 },
+    "temperatureC": [ 0, 4, 13, 17 ],
+    "precipitationMm": [ 450, 600, null, null ]
+  },
+  {
+    "id": "beautyberry",
+    "species": "American beautyberry (Callicarpa americana)",
+    "notes": "Southeastern United States to the Caribbean.",
+    "patches": [ "fruitingbush-wild-beautyberry-*" ],
+    "koppen": { "Cfa": 1, "Cwa": 0.6, "Aw": 0.4, "Am": 0.3 },
+    "temperatureC": [ 12, 15, 22, 25 ],
+    "precipitationMm": [ 900, 1100, null, null ],
+    "winterNightC": [ -15, -8, null, null ]
+  },
+  {
+    "id": "cloudberry",
+    "species": "Cloudberry (Rubus chamaemorus)",
+    "notes": "Arctic and subarctic bogs and tundra.",
+    "patches": [ "fruitingbush-wild-cloudberry-*" ],
+    "koppen": { "ET": 1, "Dfc": 1, "Cfc": 0.7, "Dfd": 0.4 },
+    "temperatureC": [ -10, -5, 2, 5 ],
+    "precipitationMm": [ 300, 400, null, null ],
+    "warmestMonthC": [ null, null, 14, 18 ]
+  },
+  {
+    "id": "blackberry",
+    "species": "Blackberry (Rubus fruticosus agg.)",
+    "notes": "Western and southern Europe's hedges and scrub.",
+    "patches": [ "fruitingbush-wild-blackberry-*" ],
+    "koppen": { "Cfb": 1, "Cfa": 0.8, "Csb": 0.8, "Csa": 0.6, "Dfb": 0.6 },
+    "temperatureC": [ 5, 8, 15, 19 ],
+    "precipitationMm": [ 500, 650, null, null ]
+  },
+  {
+    "id": "raspberry",
+    "species": "Raspberry (Rubus idaeus)",
+    "notes": "Clearings in temperate and boreal forest across Eurasia and North America.",
+    "patches": [ "fruitingbush-wild-raspberry-*" ],
+    "koppen": { "Dfb": 1, "Dfc": 0.8, "Cfb": 0.8, "Dfa": 0.6 },
+    "temperatureC": [ -4, 0, 10, 14 ],
+    "precipitationMm": [ 400, 550, null, null ]
+  }
+]

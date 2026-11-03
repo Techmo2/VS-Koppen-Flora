@@ -1,0 +1,952 @@
+[
+  {
+    "id": "ferntree",
+    "species": "Tree ferns (Cyathea, Dicksonia)",
+    "notes": "Tropical and montane cloud forest; Dicksonia also in mild oceanic New Zealand and Tasmania. Needs humid air all year and only light frost.",
+    "treegens": [
+      "ferntree-normal-trunk"
+    ],
+    "koppen": {
+      "Af": 1,
+      "Am": 0.9,
+      "Cwb": 0.7,
+      "Cfb": 0.5,
+      "Cfa": 0.5,
+      "Aw": 0.3
+    },
+    "temperatureC": [
+      8,
+      13,
+      27,
+      31
+    ],
+    "precipitationMm": [
+      800,
+      1300,
+      null,
+      null
+    ],
+    "winterNightC": [
+      -5,
+      0,
+      null,
+      null
+    ],
+    "driestMonthMm": [
+      10,
+      40,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "bamboo-tropical",
+    "species": "Clumping tropical bamboo (Bambusa, Dendrocalamus)",
+    "notes": "South and Southeast Asia, monsoon and rainforest lowlands; frost kills it. Not in Cfa, for the same reason as the temperate bamboo.",
+    "treegens": [
+      "bamboo-grown-green"
+    ],
+    "koppen": {
+      "Am": 1,
+      "Af": 0.8,
+      "Aw": 0.8,
+      "Cwa": 0.6
+    },
+    "temperatureC": [
+      16,
+      20,
+      28,
+      32
+    ],
+    "precipitationMm": [
+      800,
+      1400,
+      null,
+      null
+    ],
+    "coldestMonthC": [
+      8,
+      13,
+      null,
+      null
+    ],
+    "winterNightC": [
+      -3,
+      2,
+      null,
+      null
+    ],
+    "weight": 0.5
+  },
+  {
+    "id": "bamboo-temperate",
+    "species": "Running bamboo (Phyllostachys)",
+    "notes": "China, Korea and Japan in reality, but kept to the monsoon climates (dry winter, wet hot summer) that read as southern China and Southeast Asia: Köppen cannot tell continents apart, and bamboo in a Cfa forest that could be the southeastern United States looks out of place. Weighted down: groves within broadleaf forest, not whole forests.",
+    "treegens": [
+      "bamboo-grown-brown"
+    ],
+    "koppen": {
+      "Cwa": 1,
+      "Cwb": 0.7,
+      "Am": 0.5,
+      "Aw": 0.4,
+      "Cfa": 0.1
+    },
+    "temperatureC": [
+      8,
+      13,
+      20,
+      25
+    ],
+    "precipitationMm": [
+      700,
+      1000,
+      null,
+      null
+    ],
+    "winterNightC": [
+      -20,
+      -12,
+      null,
+      null
+    ],
+    "weight": 0.3,
+    "warmestMonthC": [
+      20,
+      23,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "silverbirch",
+    "species": "Silver birch (Betula pendula)",
+    "notes": "Europe to Siberia: boreal and cool temperate forest, a pioneer of clearings and poor soil.",
+    "treegens": [
+      "silverbirch"
+    ],
+    "koppen": {
+      "Dfb": 1,
+      "Dfc": 0.9,
+      "Cfb": 0.8,
+      "Dwb": 0.7,
+      "Cfc": 0.6,
+      "Dwc": 0.6,
+      "Dfa": 0.5,
+      "Dsb": 0.4,
+      "BSk": 0.2,
+      "Dwa": 0.5
+    },
+    "temperatureC": [
+      -7,
+      -3,
+      9,
+      13
+    ],
+    "precipitationMm": [
+      300,
+      450,
+      null,
+      null
+    ],
+    "warmestMonthC": [
+      10,
+      13,
+      22,
+      26
+    ]
+  },
+  {
+    "id": "riverbirch",
+    "species": "River birch (Betula nigra)",
+    "notes": "Floodplains of the eastern United States: humid subtropical to warm humid continental. Weighted down: a riverbank tree, not the matrix of the forest.",
+    "treegens": [
+      "riverbirch"
+    ],
+    "koppen": {
+      "Cfa": 1,
+      "Dfa": 0.6,
+      "Cwa": 0.4
+    },
+    "temperatureC": [
+      6,
+      10,
+      18,
+      22
+    ],
+    "precipitationMm": [
+      700,
+      1000,
+      null,
+      null
+    ],
+    "winterNightC": [
+      -32,
+      -24,
+      null,
+      null
+    ],
+    "weight": 0.25
+  },
+  {
+    "id": "himalayanbirch",
+    "species": "Himalayan birch (Betula utilis)",
+    "notes": "Treeline forest of the Himalaya: monsoon highland and dry-winter subarctic climates.",
+    "treegens": [
+      "himalayanbirch"
+    ],
+    "koppen": {
+      "Cwc": 1,
+      "Dwc": 1,
+      "Cwb": 0.8,
+      "Dwb": 0.8,
+      "Dfc": 0.6,
+      "ET": 0.3
+    },
+    "temperatureC": [
+      -4,
+      0,
+      7,
+      11
+    ],
+    "precipitationMm": [
+      400,
+      700,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "englishoak",
+    "species": "Pedunculate oak (Quercus robur)",
+    "notes": "Western and central Europe into Russia; deep fertile soil, warm summers. Also stands in for Mongolian oak (Q. mongolica) in Manchuria and Korea.",
+    "treegens": [
+      "englishoak",
+      "oldenglishoak"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Dfb": 0.8,
+      "Cfa": 0.6,
+      "Dfa": 0.6,
+      "Csb": 0.4,
+      "Cfc": 0.2,
+      "Dwa": 0.7,
+      "Dwb": 0.6
+    },
+    "temperatureC": [
+      3,
+      6,
+      12,
+      15
+    ],
+    "precipitationMm": [
+      400,
+      550,
+      null,
+      null
+    ],
+    "warmestMonthC": [
+      13,
+      16,
+      null,
+      null
+    ],
+    "winterNightC": [
+      -35,
+      -25,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "southernoaks",
+    "species": "Stand-in: warm-temperate oaks (Quercus alba, Q. virginiana, Q. acutissima, evergreen Cyclobalanopsis), on the oak generator",
+    "notes": "The oaks of humid subtropical and monsoon forest, which the game lacks. Weighted up to even out vanilla's weights (Scots pine 80, oak 35), as real southern oak-pine forest is.",
+    "treegens": [
+      "englishoak",
+      "oldenglishoak"
+    ],
+    "koppen": {
+      "Cfa": 1,
+      "Cwa": 0.7,
+      "Cwb": 0.5
+    },
+    "temperatureC": [
+      11,
+      14,
+      21,
+      24
+    ],
+    "precipitationMm": [
+      700,
+      900,
+      null,
+      null
+    ],
+    "winterNightC": [
+      -20,
+      -12,
+      null,
+      null
+    ],
+    "weight": 2
+  },
+  {
+    "id": "walnut",
+    "species": "Walnut (Juglans regia)",
+    "notes": "Central Asian mountains to the Mediterranean: hot summers, cold but not severe winters. Also stands in for Manchurian walnut (J. mandshurica).",
+    "treegens": [
+      "walnut"
+    ],
+    "koppen": {
+      "Dfa": 1,
+      "Csa": 0.9,
+      "Cfa": 0.8,
+      "Dsa": 0.8,
+      "Cfb": 0.7,
+      "Csb": 0.6,
+      "BSk": 0.5,
+      "Dfb": 0.5,
+      "Dwa": 0.6
+    },
+    "temperatureC": [
+      6,
+      9,
+      16,
+      20
+    ],
+    "precipitationMm": [
+      300,
+      500,
+      null,
+      null
+    ],
+    "warmestMonthC": [
+      17,
+      20,
+      null,
+      null
+    ],
+    "winterNightC": [
+      -30,
+      -22,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "norwaymaple",
+    "species": "Norway maple (Acer platanoides), with the Crimson King cultivar",
+    "notes": "Central and eastern Europe to the Urals. Also stands in for painted maple (A. mono) of northeast Asia.",
+    "treegens": [
+      "norwaymaple",
+      "crimsonkingmaple"
+    ],
+    "koppen": {
+      "Dfb": 1,
+      "Cfb": 0.9,
+      "Dfa": 0.7,
+      "Cfa": 0.4,
+      "Dfc": 0.3,
+      "Dwa": 0.6,
+      "Dwb": 0.6
+    },
+    "temperatureC": [
+      1,
+      4,
+      10,
+      14
+    ],
+    "precipitationMm": [
+      450,
+      600,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "sugarmaple",
+    "species": "Sugar maple (Acer saccharum)",
+    "notes": "Northeastern North America: humid continental, needs a cold winter and a warm summer.",
+    "treegens": [
+      "sugarmaple",
+      "sugarmaplesmall"
+    ],
+    "koppen": {
+      "Dfb": 1,
+      "Dfa": 1,
+      "Cfa": 0.5,
+      "Dfc": 0.3
+    },
+    "temperatureC": [
+      1,
+      4,
+      11,
+      15
+    ],
+    "precipitationMm": [
+      450,
+      650,
+      null,
+      null
+    ],
+    "coldestMonthC": [
+      null,
+      null,
+      2,
+      6
+    ],
+    "warmestMonthC": [
+      16,
+      19,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "japanesemaple",
+    "species": "Japanese maple (Acer palmatum)",
+    "notes": "Japan, Korea and eastern China: humid subtropical understorey.",
+    "treegens": [
+      "japanesemaple"
+    ],
+    "koppen": {
+      "Cfa": 1,
+      "Cfb": 0.6,
+      "Cwa": 0.6,
+      "Dfa": 0.6,
+      "Dwa": 0.6,
+      "Cwb": 0.5
+    },
+    "temperatureC": [
+      7,
+      10,
+      17,
+      20
+    ],
+    "precipitationMm": [
+      900,
+      1200,
+      null,
+      null
+    ],
+    "winterNightC": [
+      -25,
+      -18,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "mountainmaple",
+    "species": "Mountain maple (Acer spicatum)",
+    "notes": "Boreal and cool northern hardwood forest of North America.",
+    "treegens": [
+      "mountainmaple"
+    ],
+    "koppen": {
+      "Dfb": 1,
+      "Dfc": 0.8,
+      "Dfa": 0.4,
+      "Cfb": 0.3
+    },
+    "temperatureC": [
+      -3,
+      1,
+      7,
+      10
+    ],
+    "precipitationMm": [
+      600,
+      800,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "scotspine",
+    "species": "Scots pine (Pinus sylvestris)",
+    "notes": "The widest-ranging pine: Scotland and Spain's mountains to eastern Siberia, on dry sandy ground too.",
+    "treegens": [
+      "scotspine"
+    ],
+    "koppen": {
+      "Dfc": 1,
+      "Dfb": 1,
+      "Dwb": 0.7,
+      "Dwc": 0.7,
+      "Cfb": 0.6,
+      "Dsc": 0.6,
+      "BSk": 0.4,
+      "Dfd": 0.3,
+      "Csb": 0.3,
+      "Dwa": 0.4
+    },
+    "temperatureC": [
+      -6,
+      -2,
+      8,
+      14
+    ],
+    "precipitationMm": [
+      250,
+      400,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "southernpines",
+    "species": "Stand-in: southern pines (Pinus taeda, P. elliottii, P. massoniana, P. densiflora), on the Scots pine generator",
+    "notes": "The pines of humid subtropical forest in the southeastern US and southern China and Japan, which the game lacks.",
+    "treegens": [
+      "scotspine"
+    ],
+    "koppen": {
+      "Cfa": 1,
+      "Cwa": 0.6,
+      "Cwb": 0.4
+    },
+    "temperatureC": [
+      11,
+      14,
+      21,
+      24
+    ],
+    "precipitationMm": [
+      800,
+      1000,
+      null,
+      null
+    ],
+    "winterNightC": [
+      -15,
+      -8,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "larch",
+    "species": "Siberian and Dahurian larch (Larix sibirica, L. gmelinii)",
+    "notes": "The coldest forests on Earth, on permafrost; deciduous, so it survives extreme winters.",
+    "treegens": [
+      "larch",
+      "deepforestlarch"
+    ],
+    "koppen": {
+      "Dfc": 1,
+      "Dfd": 1,
+      "Dwc": 1,
+      "Dwd": 1,
+      "Dsc": 0.6,
+      "Dfb": 0.5,
+      "ET": 0.3
+    },
+    "temperatureC": [
+      -16,
+      -11,
+      0,
+      5
+    ],
+    "precipitationMm": [
+      200,
+      300,
+      null,
+      null
+    ],
+    "warmestMonthC": [
+      9,
+      12,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "bristleconepine",
+    "species": "Great Basin bristlecone pine (Pinus longaeva)",
+    "notes": "High, dry, cold mountains of the Great Basin; slow-growing on poor dolomite.",
+    "treegens": [
+      "bristleconepine"
+    ],
+    "koppen": {
+      "Dsb": 1,
+      "Dsc": 1,
+      "BSk": 0.8,
+      "Dfc": 0.4,
+      "Csb": 0.4,
+      "BWk": 0.3,
+      "ET": 0.3
+    },
+    "temperatureC": [
+      -4,
+      0,
+      6,
+      10
+    ],
+    "precipitationMm": [
+      150,
+      250,
+      550,
+      900
+    ]
+  },
+  {
+    "id": "mountainpine",
+    "species": "Mountain pine (Pinus mugo)",
+    "notes": "Subalpine scrub of the Alps and Carpathians, up to the treeline.",
+    "treegens": [
+      "mountainpine"
+    ],
+    "koppen": {
+      "Dfc": 1,
+      "Dfb": 0.7,
+      "ET": 0.6,
+      "Cfc": 0.5,
+      "Dsc": 0.5
+    },
+    "temperatureC": [
+      -6,
+      -2,
+      6,
+      10
+    ],
+    "precipitationMm": [
+      600,
+      900,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "redwood",
+    "species": "Coast redwood (Sequoia sempervirens)",
+    "notes": "The fog belt of the California and Oregon coast: mild, wet winters and foggy summers. Heavily weighted down outside Csb: it is the dominant tree only in a narrow coastal belt.",
+    "treegens": [
+      "redwoodpine"
+    ],
+    "koppen": {
+      "Csb": 1,
+      "Cfb": 0.2,
+      "Csa": 0.3
+    },
+    "temperatureC": [
+      8,
+      10,
+      15,
+      18
+    ],
+    "precipitationMm": [
+      600,
+      900,
+      null,
+      null
+    ],
+    "winterNightC": [
+      -15,
+      -8,
+      null,
+      null
+    ],
+    "diurnalRangeC": [
+      null,
+      null,
+      11,
+      15
+    ],
+    "weight": 0.6
+  },
+  {
+    "id": "fir",
+    "species": "Silver fir and balsam fir (Abies alba, A. balsamea)",
+    "notes": "Cool, moist mountain and boreal forest. Stands in for spruce too, which the game lacks.",
+    "treegens": [
+      "fir"
+    ],
+    "koppen": {
+      "Dfb": 1,
+      "Dfc": 1,
+      "Cfb": 0.7,
+      "Cfc": 0.5,
+      "Dfa": 0.4,
+      "Dwc": 0.4
+    },
+    "temperatureC": [
+      -7,
+      -3,
+      8,
+      12
+    ],
+    "precipitationMm": [
+      500,
+      700,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "italiancypress",
+    "species": "Mediterranean cypress (Cupressus sempervirens)",
+    "notes": "Eastern Mediterranean hills: hot dry summers, mild wet winters. Also stands in for Mexican cypress (C. lusitanica) of the tropical highlands.",
+    "treegens": [
+      "greenspirecypress"
+    ],
+    "koppen": {
+      "Csa": 1,
+      "Csb": 0.9,
+      "BSk": 0.6,
+      "BSh": 0.5,
+      "Cfa": 0.4,
+      "Cwb": 0.7
+    },
+    "temperatureC": [
+      11,
+      14,
+      20,
+      24
+    ],
+    "precipitationMm": [
+      250,
+      400,
+      900,
+      1400
+    ],
+    "winterNightC": [
+      -18,
+      -10,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "baldcypress",
+    "species": "Bald cypress (Taxodium distichum)",
+    "notes": "Swamps and river bottoms of the southeastern United States.",
+    "treegens": [
+      "baldcypress",
+      "baldcypressswamp"
+    ],
+    "koppen": {
+      "Cfa": 1,
+      "Cwa": 0.6,
+      "Dfa": 0.3,
+      "Aw": 0.2
+    },
+    "temperatureC": [
+      10,
+      14,
+      22,
+      25
+    ],
+    "precipitationMm": [
+      800,
+      1100,
+      null,
+      null
+    ],
+    "winterNightC": [
+      -25,
+      -15,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "savannaacacia",
+    "species": "Umbrella thorn acacia (Vachellia tortilis)",
+    "notes": "African and Arabian savanna and semi-desert: hot, with a long dry season.",
+    "treegens": [
+      "acacia",
+      "deadacacia"
+    ],
+    "koppen": {
+      "Aw": 1,
+      "BSh": 1,
+      "BWh": 0.5,
+      "Cwa": 0.3,
+      "Am": 0.3
+    },
+    "temperatureC": [
+      18,
+      21,
+      30,
+      33
+    ],
+    "precipitationMm": [
+      100,
+      250,
+      900,
+      1400
+    ],
+    "winterNightC": [
+      -5,
+      2,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "purpleheart",
+    "species": "Purpleheart (Peltogyne)",
+    "notes": "Amazon and Guiana rainforest.",
+    "treegens": [
+      "purpleheart"
+    ],
+    "koppen": {
+      "Af": 1,
+      "Am": 1,
+      "Aw": 0.4
+    },
+    "temperatureC": [
+      21,
+      24,
+      29,
+      31
+    ],
+    "precipitationMm": [
+      1200,
+      1800,
+      null,
+      null
+    ],
+    "coldestMonthC": [
+      15,
+      18,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "ebony",
+    "species": "Ceylon ebony (Diospyros ebenum)",
+    "notes": "Dry evergreen and monsoon forest of southern India and Sri Lanka.",
+    "treegens": [
+      "ebony"
+    ],
+    "koppen": {
+      "Aw": 1,
+      "Am": 0.9,
+      "Af": 0.5,
+      "BSh": 0.2
+    },
+    "temperatureC": [
+      21,
+      24,
+      29,
+      32
+    ],
+    "precipitationMm": [
+      700,
+      1000,
+      null,
+      null
+    ],
+    "coldestMonthC": [
+      15,
+      18,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "kapok",
+    "species": "Kapok (Ceiba pentandra)",
+    "notes": "Emergent of tropical rainforest and moist savanna, Americas and West Africa.",
+    "treegens": [
+      "kapok",
+      "vineykapok",
+      "deadkapok",
+      "largekapok",
+      "largekapok2"
+    ],
+    "koppen": {
+      "Af": 1,
+      "Am": 1,
+      "Aw": 0.9
+    },
+    "temperatureC": [
+      20,
+      23,
+      29,
+      32
+    ],
+    "precipitationMm": [
+      800,
+      1300,
+      null,
+      null
+    ],
+    "coldestMonthC": [
+      14,
+      17,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "pricklymoses",
+    "species": "Prickly Moses (Acacia verticillata)",
+    "notes": "Southeastern Australia and Tasmania: oceanic and Mediterranean scrub and woodland.",
+    "treegens": [
+      "pricklymoses"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Csb": 0.9,
+      "Cfa": 0.6,
+      "Csa": 0.4
+    },
+    "temperatureC": [
+      8,
+      11,
+      17,
+      20
+    ],
+    "precipitationMm": [
+      450,
+      600,
+      1500,
+      2100
+    ],
+    "winterNightC": [
+      -8,
+      -3,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "dwarfbirch",
+    "species": "Dwarf birch (Betula nana)",
+    "notes": "Arctic and alpine tundra, bogs and the edge of the boreal forest; dislikes summer heat.",
+    "treegens": [
+      "dwarfbirch"
+    ],
+    "koppen": {
+      "ET": 1,
+      "Dfc": 0.9,
+      "Cfc": 0.6,
+      "Dfd": 0.6,
+      "Dwc": 0.6
+    },
+    "temperatureC": [
+      -14,
+      -8,
+      2,
+      6
+    ],
+    "precipitationMm": [
+      150,
+      250,
+      null,
+      null
+    ],
+    "warmestMonthC": [
+      null,
+      null,
+      14,
+      18
+    ]
+  }
+]

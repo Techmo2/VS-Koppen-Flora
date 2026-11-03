@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>KoppenFlora</AssemblyName>
+    <RootNamespace>KoppenFlora</RootNamespace>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+    <DebugType>portable</DebugType>
+  </PropertyGroup>
+
+  <!-- Path to the Vintage Story installation. Override with -p:VintagestoryDir=/path -->
+  <PropertyGroup>
+    <VintagestoryDir Condition="'$(VintagestoryDir)' == '' AND '$(VINTAGE_STORY)' != ''">$(VINTAGE_STORY)</VintagestoryDir>
+    <VintagestoryDir Condition="'$(VintagestoryDir)' == '' AND Exists('/opt/vintagestory/VintagestoryAPI.dll')">/opt/vintagestory</VintagestoryDir>
+    <TerrainDiffusionDll Condition="'$(TerrainDiffusionDll)' == '' AND '$(TERRAIN_DIFFUSION)' != ''">$(TERRAIN_DIFFUSION)</TerrainDiffusionDll>
+    <TerrainDiffusionDll Condition="'$(TerrainDiffusionDll)' == ''">$(MSBuildThisFileDirectory)../../VSDiffusionTerrain/src/VSTerrainDiffusion/bin/Release/VSTerrainDiffusion.dll</TerrainDiffusionDll>
+  </PropertyGroup>
+
+  <Target Name="CheckDependencies" BeforeTargets="BeforeBuild">
+    <Error Condition="!Exists('$(VintagestoryDir)/VintagestoryAPI.dll')"
+           Text="Could not locate the Vintage Story installation. Set VINTAGE_STORY or pass -p:VintagestoryDir=/path/to/vintagestory." />
+    <Error Condition="!Exists('$(TerrainDiffusionDll)')"
+           Text="Could not find VSTerrainDiffusion.dll. Build Terrain Diffusion first, or set TERRAIN_DIFFUSION to the DLL." />
+  </Target>
+
+  <ItemGroup>
+    <Reference Include="VintagestoryAPI"><HintPath>$(VintagestoryDir)/VintagestoryAPI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="VSEssentials"><HintPath>$(VintagestoryDir)/Mods/VSEssentials.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="VSSurvivalMod"><HintPath>$(VintagestoryDir)/Mods/VSSurvivalMod.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(VintagestoryDir)/Lib/0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Newtonsoft.Json"><HintPath>$(VintagestoryDir)/Lib/Newtonsoft.Json.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="VSTerrainDiffusion"><HintPath>$(TerrainDiffusionDll)</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="assets/**" />
+    <None Remove="assets/**" />
+  </ItemGroup>
+
+</Project>

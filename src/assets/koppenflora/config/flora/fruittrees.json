@@ -1,0 +1,123 @@
+[
+  {
+    "id": "fruit-apple-red",
+    "species": "Apple (Malus domestica), hardy red varieties; wild ancestor Malus sieversii of the Tian Shan",
+    "notes": "Needs winter chill to fruit, so the coldest month must be cold.",
+    "fruitTrees": [ "redapple" ],
+    "koppen": { "Dfb": 1, "Cfb": 0.8, "Dfa": 0.8, "Dsb": 0.6, "Dfc": 0.3, "BSk": 0.3 },
+    "temperatureC": [ 0, 4, 11, 15 ],
+    "precipitationMm": [ 400, 600, 1200, 2000 ],
+    "coldestMonthC": [ null, null, 5, 10 ]
+  },
+  {
+    "id": "fruit-apple-pink",
+    "species": "Apple (Malus domestica)",
+    "fruitTrees": [ "pinkapple" ],
+    "koppen": { "Cfb": 1, "Dfb": 1, "Dfa": 0.9, "Dsb": 0.6, "Csb": 0.5, "Cfa": 0.5, "BSk": 0.3 },
+    "temperatureC": [ 2, 6, 13, 17 ],
+    "precipitationMm": [ 400, 600, 1200, 2000 ],
+    "coldestMonthC": [ null, null, 6, 11 ]
+  },
+  {
+    "id": "fruit-apple-yellow",
+    "species": "Apple (Malus domestica), low-chill warm-climate varieties",
+    "fruitTrees": [ "yellowapple" ],
+    "koppen": { "Cfb": 1, "Cfa": 0.8, "Csb": 0.7, "Dfa": 0.7, "Csa": 0.5, "Dfb": 0.5 },
+    "temperatureC": [ 4, 8, 15, 19 ],
+    "precipitationMm": [ 500, 700, 1400, 2200 ],
+    "coldestMonthC": [ null, null, 8, 12 ]
+  },
+  {
+    "id": "fruit-cherry",
+    "species": "Sweet cherry (Prunus avium)",
+    "notes": "Europe, Anatolia and the Caucasus; needs winter chill.",
+    "fruitTrees": [ "cherry" ],
+    "koppen": { "Cfb": 1, "Dfb": 0.8, "Csb": 0.8, "Dfa": 0.7, "Csa": 0.6, "Cfa": 0.6 },
+    "temperatureC": [ 5, 8, 14, 18 ],
+    "precipitationMm": [ 500, 600, 1300, 1900 ],
+    "coldestMonthC": [ null, null, 7, 12 ]
+  },
+  {
+    "id": "fruit-peach",
+    "species": "Peach (Prunus persica)",
+    "notes": "Northwest China; hot summers, a short chilling winter.",
+    "fruitTrees": [ "peach" ],
+    "koppen": { "Cfa": 1, "Csa": 0.9, "Cwa": 0.7, "Dfa": 0.7, "Csb": 0.6, "Dwa": 0.5 },
+    "temperatureC": [ 9, 12, 18, 22 ],
+    "precipitationMm": [ 400, 600, 1300, 2000 ],
+    "coldestMonthC": [ null, null, 8, 13 ],
+    "winterNightC": [ -25, -18, null, null ]
+  },
+  {
+    "id": "fruit-pear",
+    "species": "European pear (Pyrus communis)",
+    "fruitTrees": [ "pear" ],
+    "koppen": { "Cfb": 1, "Dfb": 0.9, "Dfa": 0.8, "Csa": 0.6, "Csb": 0.6, "Cfa": 0.6 },
+    "temperatureC": [ 2, 6, 14, 18 ],
+    "precipitationMm": [ 400, 600, 1200, 1800 ],
+    "coldestMonthC": [ null, null, 7, 12 ]
+  },
+  {
+    "id": "fruit-olive",
+    "species": "Olive (Olea europaea)",
+    "notes": "The Mediterranean climate's signature tree: drought-hardy, damaged below about -10 °C, wants a cool winter to flower.",
+    "fruitTrees": [ "olive" ],
+    "koppen": { "Csa": 1, "Csb": 0.8, "BSk": 0.5, "BSh": 0.4, "Cfa": 0.3 },
+    "temperatureC": [ 13, 15, 20, 23 ],
+    "precipitationMm": [ 200, 400, 900, 1300 ],
+    "coldestMonthC": [ null, null, 12, 16 ],
+    "winterNightC": [ -12, -6, null, null ]
+  },
+  {
+    "id": "fruit-orange",
+    "species": "Sweet orange (Citrus sinensis)",
+    "notes": "Subtropical; frost damages the fruit and kills young trees.",
+    "fruitTrees": [ "orange" ],
+    "koppen": { "Csa": 0.8, "Cfa": 0.8, "Cwa": 0.8, "Aw": 0.6, "Am": 0.5, "BSh": 0.4 },
+    "temperatureC": [ 15, 18, 26, 30 ],
+    "precipitationMm": [ 500, 900, 2000, 3000 ],
+    "winterNightC": [ -5, 0, null, null ]
+  },
+  {
+    "id": "fruit-pomegranate",
+    "species": "Pomegranate (Punica granatum)",
+    "notes": "Iran to northern India: hot dry summers, cool winters.",
+    "fruitTrees": [ "pomegranate" ],
+    "koppen": { "Csa": 1, "BSk": 0.8, "BSh": 0.8, "Dsa": 0.6, "Cfa": 0.5, "Cwa": 0.4 },
+    "temperatureC": [ 12, 15, 23, 27 ],
+    "precipitationMm": [ 150, 300, 800, 1200 ],
+    "winterNightC": [ -15, -10, null, null ]
+  },
+  {
+    "id": "fruit-mango",
+    "species": "Mango (Mangifera indica)",
+    "notes": "Monsoon India and Southeast Asia: a dry season sets the flowers.",
+    "fruitTrees": [ "mango" ],
+    "koppen": { "Aw": 1, "Am": 0.9, "Cwa": 0.6, "Af": 0.5, "BSh": 0.4 },
+    "temperatureC": [ 20, 23, 29, 32 ],
+    "precipitationMm": [ 500, 800, 2500, 4000 ],
+    "coldestMonthC": [ 10, 15, null, null ],
+    "winterNightC": [ 0, 5, null, null ]
+  },
+  {
+    "id": "fruit-breadfruit",
+    "species": "Breadfruit (Artocarpus altilis)",
+    "notes": "Humid equatorial lowlands of the Pacific and Southeast Asia.",
+    "fruitTrees": [ "breadfruit" ],
+    "koppen": { "Af": 1, "Am": 1, "Aw": 0.6 },
+    "temperatureC": [ 22, 25, 29, 32 ],
+    "precipitationMm": [ 1200, 1800, null, null ],
+    "coldestMonthC": [ 16, 20, null, null ]
+  },
+  {
+    "id": "fruit-lychee",
+    "species": "Lychee (Litchi chinensis)",
+    "notes": "Southern China: needs a cool, dry winter to flower and a hot wet summer.",
+    "fruitTrees": [ "lychee" ],
+    "koppen": { "Cwa": 1, "Cfa": 0.8, "Aw": 0.6, "Am": 0.5 },
+    "temperatureC": [ 17, 20, 25, 28 ],
+    "precipitationMm": [ 1000, 1300, 2600, 3600 ],
+    "coldestMonthC": [ null, null, 15, 20 ],
+    "winterNightC": [ -2, 2, null, null ]
+  }
+]

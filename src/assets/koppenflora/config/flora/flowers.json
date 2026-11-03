@@ -1,0 +1,728 @@
+[
+  {
+    "id": "catmint",
+    "species": "Catnip (Nepeta cataria)",
+    "notes": "Europe to Central Asia, on dry open ground.",
+    "patches": [
+      "flower-catmint-*"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Dfb": 0.9,
+      "Dfa": 0.8,
+      "Csa": 0.6,
+      "Csb": 0.6,
+      "Cfa": 0.5,
+      "BSk": 0.5
+    },
+    "temperatureC": [
+      2,
+      6,
+      14,
+      18
+    ],
+    "precipitationMm": [
+      300,
+      450,
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": "lupine",
+    "species": "Lupines (Lupinus polyphyllus, L. perennis)",
+    "notes": "Cool, moist meadows of North America, naturalised across northern Europe.",
+    "patches": [
+      "flower-lupine-*"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Dfb": 1,
+      "Csb": 0.6,
+      "Cfc": 0.5,
+      "Dfc": 0.5
+    },
+    "temperatureC": [
+      0,
+      4,
+      11,
+      15
+    ],
+    "precipitationMm": [
+      400,
+      600,
+      1600,
+      2600
+    ]
+  },
+  {
+    "id": "woad",
+    "species": "Woad (Isatis tinctoria)",
+    "notes": "Steppe of Central Asia and the Caucasus; dry, sunny ground.",
+    "patches": [
+      "flower-woad-*"
+    ],
+    "koppen": {
+      "BSk": 1,
+      "Dfa": 0.8,
+      "Csa": 0.7,
+      "Dsa": 0.7,
+      "Dfb": 0.6,
+      "Cfb": 0.4
+    },
+    "temperatureC": [
+      2,
+      6,
+      14,
+      18
+    ],
+    "precipitationMm": [
+      200,
+      300,
+      800,
+      1200
+    ]
+  },
+  {
+    "id": "forgetmenot",
+    "species": "Forget-me-not (Myosotis)",
+    "notes": "Damp meadows and woodland edges of temperate Europe and Asia.",
+    "patches": [
+      "flower-forgetmenot-*"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Dfb": 1,
+      "Cfc": 0.6,
+      "Cfa": 0.5,
+      "Dfc": 0.5
+    },
+    "temperatureC": [
+      0,
+      4,
+      12,
+      16
+    ],
+    "precipitationMm": [
+      500,
+      700,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "wilddaisy",
+    "species": "Common daisy (Bellis perennis)",
+    "notes": "Western and central Europe's mild grassland.",
+    "patches": [
+      "flower-wilddaisy-*"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Dfb": 0.7,
+      "Csb": 0.7,
+      "Cfa": 0.5,
+      "Csa": 0.4
+    },
+    "temperatureC": [
+      3,
+      7,
+      14,
+      18
+    ],
+    "precipitationMm": [
+      450,
+      600,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "cowparsley",
+    "species": "Cow parsley (Anthriscus sylvestris)",
+    "notes": "Hedgerows and woodland edges of temperate Europe.",
+    "patches": [
+      "flower-cowparsley-*"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Dfb": 0.9,
+      "Cfc": 0.5,
+      "Dfa": 0.5,
+      "Dfc": 0.4
+    },
+    "temperatureC": [
+      1,
+      5,
+      12,
+      15
+    ],
+    "precipitationMm": [
+      450,
+      600,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "cornflower",
+    "species": "Cornflower (Centaurea cyanus)",
+    "notes": "A grainfield weed of Europe and the Near East.",
+    "patches": [
+      "flower-cornflower-*"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Dfb": 0.9,
+      "Dfa": 0.8,
+      "Csa": 0.6,
+      "Csb": 0.6,
+      "BSk": 0.4
+    },
+    "temperatureC": [
+      3,
+      7,
+      14,
+      18
+    ],
+    "precipitationMm": [
+      350,
+      500,
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": "edelweiss",
+    "species": "Edelweiss (Leontopodium nivale)",
+    "notes": "Alpine limestone grassland above the treeline.",
+    "patches": [
+      "flower-edelweiss-*"
+    ],
+    "koppen": {
+      "ET": 1,
+      "Dfc": 0.6,
+      "Dsc": 0.5,
+      "Cfc": 0.4,
+      "Dfb": 0.3
+    },
+    "temperatureC": [
+      -6,
+      -3,
+      4,
+      7
+    ],
+    "warmestMonthC": [
+      null,
+      null,
+      13,
+      17
+    ]
+  },
+  {
+    "id": "bluebell",
+    "species": "Common bluebell (Hyacinthoides non-scripta)",
+    "notes": "Atlantic Europe's deciduous woods, above all Britain: mild, wet, never very cold.",
+    "patches": [
+      "flower-bluebell-*"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Cfc": 0.4,
+      "Csb": 0.3
+    },
+    "temperatureC": [
+      5,
+      8,
+      12,
+      15
+    ],
+    "precipitationMm": [
+      600,
+      800,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "ghostpipe",
+    "species": "Ghost pipe (Monotropa uniflora)",
+    "notes": "Deep shade of temperate forests in North America and East Asia.",
+    "patches": [
+      "flower-ghostpipe*"
+    ],
+    "koppen": {
+      "Dfb": 1,
+      "Dfa": 0.9,
+      "Cfa": 0.8,
+      "Cfb": 0.6,
+      "Dwa": 0.6,
+      "Dwb": 0.6,
+      "Cwb": 0.5
+    },
+    "temperatureC": [
+      0,
+      4,
+      15,
+      20
+    ],
+    "precipitationMm": [
+      700,
+      900,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "daffodil",
+    "species": "Wild daffodil (Narcissus pseudonarcissus)",
+    "notes": "Iberia, France and southern Britain.",
+    "patches": [
+      "flower-daffodil-*"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Csb": 0.9,
+      "Csa": 0.6,
+      "Cfa": 0.5
+    },
+    "temperatureC": [
+      6,
+      9,
+      15,
+      18
+    ],
+    "precipitationMm": [
+      500,
+      700,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "mugwort",
+    "species": "Mugwort (Artemisia vulgaris)",
+    "notes": "Waste ground and riverbanks across temperate Eurasia.",
+    "patches": [
+      "flower-mugwort-*"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Dfb": 1,
+      "Dfa": 0.8,
+      "BSk": 0.6,
+      "Cfa": 0.6,
+      "Dwb": 0.6
+    },
+    "temperatureC": [
+      -2,
+      3,
+      14,
+      18
+    ],
+    "precipitationMm": [
+      300,
+      450,
+      1200,
+      1800
+    ]
+  },
+  {
+    "id": "redtopgrass",
+    "species": "Redtop (Agrostis gigantea)",
+    "notes": "Moist meadows of temperate and boreal Eurasia.",
+    "patches": [
+      "flower-redtopgrass-*"
+    ],
+    "koppen": {
+      "Dfb": 1,
+      "Cfb": 1,
+      "Dfa": 0.7,
+      "Dfc": 0.5
+    },
+    "temperatureC": [
+      -2,
+      3,
+      12,
+      16
+    ],
+    "precipitationMm": [
+      450,
+      600,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "heather",
+    "species": "Heather (Calluna vulgaris)",
+    "notes": "Acid heath and moorland of Atlantic and northern Europe.",
+    "patches": [
+      "flower-heather-*"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Cfc": 0.9,
+      "Dfc": 0.6,
+      "Dfb": 0.6
+    },
+    "temperatureC": [
+      -2,
+      3,
+      10,
+      13
+    ],
+    "precipitationMm": [
+      500,
+      700,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "westerngorse",
+    "species": "Western gorse (Ulex gallii)",
+    "notes": "Atlantic heath of Britain, Ireland and western France; frost-tender.",
+    "patches": [
+      "flower-westerngorse-*"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Cfc": 0.5
+    },
+    "temperatureC": [
+      7,
+      9,
+      12,
+      14
+    ],
+    "precipitationMm": [
+      700,
+      900,
+      null,
+      null
+    ],
+    "winterNightC": [
+      -12,
+      -6,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "goldenpoppy",
+    "species": "California poppy (Eschscholzia californica)",
+    "notes": "Mediterranean California and the edges of its deserts.",
+    "patches": [
+      "flower-goldenpoppy-*"
+    ],
+    "koppen": {
+      "Csa": 1,
+      "Csb": 1,
+      "BSk": 0.6,
+      "BSh": 0.5,
+      "BWh": 0.2
+    },
+    "temperatureC": [
+      10,
+      13,
+      19,
+      23
+    ],
+    "precipitationMm": [
+      150,
+      250,
+      800,
+      1200
+    ]
+  },
+  {
+    "id": "horsetail",
+    "species": "Field horsetail (Equisetum arvense)",
+    "notes": "Wet ground across the northern hemisphere's temperate and boreal zones. Wet ground: needs rain through the year.",
+    "patches": [
+      "flower-horsetail-*"
+    ],
+    "koppen": {
+      "Dfb": 1,
+      "Dfc": 1,
+      "Cfb": 0.9,
+      "Cfc": 0.7,
+      "Dfa": 0.6,
+      "ET": 0.4
+    },
+    "temperatureC": [
+      -6,
+      -2,
+      10,
+      15
+    ],
+    "precipitationMm": [
+      500,
+      800,
+      null,
+      null
+    ],
+    "driestMonthMm": [
+      15,
+      30,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "lilyofthevalley",
+    "species": "Lily of the valley (Convallaria majalis)",
+    "notes": "Deciduous woods of temperate Europe and Asia.",
+    "patches": [
+      "flower-lilyofthevalley-*"
+    ],
+    "koppen": {
+      "Dfb": 1,
+      "Cfb": 0.8,
+      "Dfa": 0.6,
+      "Dwb": 0.6
+    },
+    "temperatureC": [
+      0,
+      3,
+      10,
+      14
+    ],
+    "precipitationMm": [
+      450,
+      600,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "orangemallow",
+    "species": "Desert globemallow (Sphaeralcea ambigua)",
+    "notes": "Mojave and Sonoran deserts. Close relatives reach the cold Great Basin.",
+    "patches": [
+      "flower-orangemallow-*"
+    ],
+    "koppen": {
+      "BWh": 1,
+      "BSh": 0.9,
+      "BSk": 0.7,
+      "BWk": 0.6,
+      "Csa": 0.3
+    },
+    "temperatureC": [
+      5,
+      10,
+      24,
+      28
+    ],
+    "precipitationMm": [
+      50,
+      100,
+      400,
+      600
+    ]
+  },
+  {
+    "id": "rafflesia",
+    "species": "Rafflesia (Rafflesia arnoldii)",
+    "notes": "Rainforest of Sumatra and Borneo, a parasite of Tetrastigma vines.",
+    "patches": [
+      "flower-rafflesia-*"
+    ],
+    "koppen": {
+      "Af": 1,
+      "Am": 0.6
+    },
+    "temperatureC": [
+      22,
+      24,
+      28,
+      30
+    ],
+    "precipitationMm": [
+      2000,
+      2500,
+      null,
+      null
+    ],
+    "coldestMonthC": [
+      20,
+      22,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "croton",
+    "species": "Croton (Codiaeum variegatum)",
+    "notes": "Rainforest understorey of Indonesia, Malaysia and the western Pacific.",
+    "patches": [
+      "flower-croton-*"
+    ],
+    "koppen": {
+      "Af": 1,
+      "Am": 0.9,
+      "Aw": 0.4
+    },
+    "temperatureC": [
+      21,
+      24,
+      29,
+      32
+    ],
+    "precipitationMm": [
+      1500,
+      2000,
+      null,
+      null
+    ],
+    "coldestMonthC": [
+      16,
+      19,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "tallfern",
+    "species": "Tropical giant ferns (Angiopteris and kin)",
+    "notes": "Rainforest and cloud forest floors.",
+    "patches": [
+      "tallfern"
+    ],
+    "koppen": {
+      "Af": 1,
+      "Am": 0.9,
+      "Cwb": 0.5,
+      "Aw": 0.4,
+      "Cfa": 0.4
+    },
+    "temperatureC": [
+      16,
+      20,
+      null,
+      null
+    ],
+    "precipitationMm": [
+      1200,
+      1800,
+      null,
+      null
+    ],
+    "winterNightC": [
+      0,
+      5,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "eaglefern",
+    "species": "Bracken (Pteridium aquilinum)",
+    "notes": "Nearly worldwide in temperate and subtropical woods and heaths.",
+    "patches": [
+      "fern-eaglefern"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Dfb": 0.9,
+      "Cfa": 0.7,
+      "Cfc": 0.6,
+      "Dfa": 0.6,
+      "Dfc": 0.6,
+      "Csb": 0.5,
+      "Cwb": 0.5
+    },
+    "temperatureC": [
+      -2,
+      3,
+      16,
+      22
+    ],
+    "precipitationMm": [
+      500,
+      700,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "cinnamonfern",
+    "species": "Cinnamon fern (Osmundastrum cinnamomeum)",
+    "notes": "Swamps and wet woods of eastern North America and East Asia.",
+    "patches": [
+      "fern-cinnamonfern"
+    ],
+    "koppen": {
+      "Cfa": 1,
+      "Dfa": 0.9,
+      "Dfb": 0.9,
+      "Cwa": 0.5
+    },
+    "temperatureC": [
+      2,
+      6,
+      18,
+      23
+    ],
+    "precipitationMm": [
+      800,
+      1000,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "deerfern",
+    "species": "Deer fern (Struthiopteris spicant)",
+    "notes": "Wet coniferous forest of the Pacific Northwest and Atlantic Europe.",
+    "patches": [
+      "fern-deerfern"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Cfc": 0.8,
+      "Csb": 0.6,
+      "Dfb": 0.4,
+      "Dfc": 0.3
+    },
+    "temperatureC": [
+      2,
+      5,
+      11,
+      14
+    ],
+    "precipitationMm": [
+      900,
+      1200,
+      null,
+      null
+    ]
+  },
+  {
+    "id": "hartstongue",
+    "species": "Hart's-tongue fern (Asplenium scolopendrium)",
+    "notes": "Shady limestone and ravines of western Europe.",
+    "patches": [
+      "fern-hartstongue"
+    ],
+    "koppen": {
+      "Cfb": 1,
+      "Csb": 0.6,
+      "Cfa": 0.5
+    },
+    "temperatureC": [
+      6,
+      8,
+      13,
+      16
+    ],
+    "precipitationMm": [
+      700,
+      900,
+      null,
+      null
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "tallgrass",
+    "species": "Grasses",
+    "notes": "Vanilla spreads grass over several patches by climate (meadow, savanna, steppe, tundra); those stay, and this only thins them where grass is sparse on Earth: true deserts and ice.",
+    "patches": [ "tallgrass-*" ],
+    "mode": "multiply",
+    "koppen": {
+      "Af": 1, "Am": 1, "Aw": 1, "BWh": 0.25, "BWk": 0.3, "BSh": 1, "BSk": 1,
+      "Csa": 1, "Csb": 1, "Csc": 1, "Cwa": 1, "Cwb": 1, "Cwc": 1, "Cfa": 1, "Cfb": 1, "Cfc": 1,
+      "Dsa": 1, "Dsb": 1, "Dsc": 1, "Dsd": 1, "Dwa": 1, "Dwb": 1, "Dwc": 1, "Dwd": 1,
+      "Dfa": 1, "Dfb": 1, "Dfc": 1, "Dfd": 1, "ET": 0.8, "EF": 0
+    }
+  }
+]
